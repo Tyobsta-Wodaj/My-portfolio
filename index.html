@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tyob's Portfolio</title>
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+ 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#contact">
+      <span class="fw-bold fs-3 text-warning" style="font-family: 'Segoe UI', sans-serif; letter-spacing: 2px;">
+        Tyob
+      </span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<section id="hero" class="py-5 text-center text-white" style="background: linear-gradient(to right, #1c1c1c, #343a40);">
+  <div class="container" data-aos="fade-in">
+    <h1 class="display-4 fw-bold">Hey, I'm <span class="text-warning">Tyobsta Wodaj</span></h1>
+    <p class="typing fs-4 mt-3"></p>
+    <a href="#projects" class="btn btn-warning btn-lg mt-3">See my projects</a>
+  </div>
+</section>
+
+
+<section id="about" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5" data-aos="fade-up">About Me</h2>
+    <div class="row align-items-center">
+      <div class="col-lg-4 text-center" data-aos="zoom-in">
+        <img src="images/me 0.jpg" class="img-fluid mb-3 rounded-circle profile-pic" alt="Profile Picture" width="250">
+      </div>
+      <div class="col-lg-8" data-aos="fade-left">
+        <p>Hello! I’m a Software Engineering student and aspiring Web Developer with a strong passion for technology and innovation.
+I love exploring new tools, frameworks, and ideas that help create meaningful digital experiences.
+My goal is to develop modern, user-focused web applications while continuously growing as a professional in the tech industry</p>
+        <h5 class="mt-4">Skills:</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">💻 HTML & CSS</li>
+          <li class="list-group-item">⚙️ JavaScript</li>
+          <li class="list-group-item">🎨 Bootstrap</li>
+          
+        </ul>
+
+        <h5 class="mt-4">My Journey:</h5>
+        <div class="timeline">
+          <div class="timeline-item" data-aos="fade-right"><h6>2023 - Started my Software Engineering degree</h6>
+</div>
+          <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">    <h6>2024 - Built first web projects using HTML, CSS, and Bootstrap</h6>
+</div>
+          <div class="timeline-item" data-aos="fade-right" data-aos-delay="200">    <h6>2025 - Exploring JavaScript, React, and interactive web apps</h6>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="services" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5" data-aos="fade-up">What I Do</h2>
+    <div class="row g-4 text-center">
+      <div class="col-md-4 d-flex" data-aos="zoom-in">
+        <div class="card service-card p-3 h-70px">
+          <i class="bi bi-code-slash service-icon"></i>
+          <h4 class="mt-2">Web Design</h4>
+          <p>Create responsive and visually appealing websites using HTML and modern CSS techniques.</p>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card service-card p-3 h-70px">
+          <i class="bi bi-terminal service-icon"></i>
+          <h4 class="mt-2">Web Development</h4>
+          <p>Develop interactive and dynamic web apps using JavaScript.</p>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card service-card p-3 h-70px">
+          <i class="bi bi-brush service-icon"></i>
+          <h4 class="mt-2">Bootstrap</h4>
+          <p>Build responsive, mobile-friendly websites quickly using Bootstrap’s prebuilt components and grid system.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="projects" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5" data-aos="fade-up">Projects</h2>
+    <div class="row g-4">
+
+    
+     <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="50">
+  <div class="card project-card h-100">
+    <img src="images/rps.png" class="card-img-top" style="height:300px;object-fit:cover" alt="Project 1">
+    <div class="card-body">
+      <h4>Rock Paper Scissors</h4>
+      <p>A simple Rock-Paper-Scissors web game built with HTML, CSS, and JavaScript. Players face off against the computer, with dynamic results and score tracking</p>
+      <a href="https://rock-paper-scissors-tyob.netlify.app/" class="btn btn-warning">View Project</a>
+    </div>
+  </div>
+</div>
+
+      
+      <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+        <div class="card project-card h-100">
+          <img src="images/survey.png" class="card-img-top" style="height:300px;object-fit:cover" alt="Project 2">
+          <div class="card-body">
+            <h4>Survey Form</h4>
+            <p>A responsive HTML & CSS survey form for a freeCodeCamp project collecting user info and feedback.</p>
+            <a href="https://survey-form-tyob.netlify.app/" class="btn btn-warning">View Project</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4 " data-aos="fade-up" data-aos-delay="150">
+        <div class="card project-card h-100">
+          <img src="images/count.png" class="card-img-top" style="height:300px;object-fit:cover" alt="Project 3">
+          <div class="card-body">
+            <h4>Passenger Counter</h4>
+            <p>A simple HTML, CSS, and JavaScript app that tracks male and female passengers, updates counts, and shows totals dynamically</p>
+            <a href="https://counter-tyob.netlify.app/" class="btn btn-warning">View Project</a>
+          </div>
+        </div>
+      </div>
+     
+      <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="200">
+        <div class="card project-card h-100 " >
+          <img src="images/port.png" class="card-img-top" style="height:300px;object-fit:cover" alt="Project 4">
+          <div class="card-body">
+            <h4>Portfolio</h4>
+            <p>A responsive personal portfolio built with HTML, CSS, Bootstrap, and JavaScript, showcasing my skills, projects, and contact info with a clean, interactive design.</p>
+            <a href="https://portfolio-tyob.netlify.app/" class="btn btn-warning">View Project</a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="250">
+        <div class="card project-card h-100">
+          <img src="images/technical.png" class="card-img-top" style="height:300px;object-fit:cover" alt="Project 5">
+          <div class="card-body">
+            <h4>technical documentation</h4>
+            <p>A responsive JavaScript documentation page built with HTML and CSS for a freeCodeCamp project, featuring a fixed sidebar, clear sections, and code examples.</p>
+            <a href="https://technical-documentation-tyob.netlify.app/" class="btn btn-warning">View Project</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="300">
+        <div class="card project-card h-100">
+          <img src="images/calc.png" class="card-img-top" style="height:300px;object-fit:cover" alt="Project 6">
+          <div class="card-body">
+            <h4>Calculator</h4>
+            <p>A basic calculator built with HTML, CSS, and JavaScript, enabling simple arithmetic operations in a clean, interactive interface.</p>
+            <a href="https://calculator-tyob.netlify.app/" class="btn btn-warning">View Project</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="350">
+        <div class="card project-card h-100">
+          <img src="images/todo.png" class="card-img-top" style="height:300px;object-fit:cover" alt="Project 7">
+          <div class="card-body">
+            <h4>Todo list</h4>
+            <p>A notes app built with HTML, CSS, and JavaScript that lets users add, mark, and delete notes with optional dates in an interactive interface.</p>
+            <a href="https://todo-list-tyob.netlify.app/" class="btn btn-warning">View Project</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="400">
+        <div class="card project-card h-100">
+          <img src="images/login.png" class="card-img-top" style="height:300px;object-fit:cover" alt="Project 8">
+          <div class="card-body">
+            <h4>Login sign up</h4>
+            <p>A responsive login and registration app built with HTML, CSS, and JavaScript, featuring seamless form switching, validation, and interactive UI.</p>
+            <a href="https://login-signup-tyob.netlify.app/" class="btn btn-warning">View Project</a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="450">
+        <div class="card project-card h-100">
+          <img src="images/shopping.png" class="card-img-top" style="height:300px;object-fit:cover" alt="Project 9">
+          <div class="card-body">
+            <h4>Shopping cart</h4>
+            <p>A mobile-style shopping cart web app built with HTML, CSS, and JavaScript. It lets users view products, check detailed info, add items to the cart, and see total prices dynamically in a clean, responsive interface.</p>
+            <a href="https://shopping-cart-tyob.netlify.app/" class="btn btn-warning">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 d-flex" data-aos="fade-up" data-aos-delay="450">
+        <div class="card project-card h-100">
+          <img src="images/quiz.png" class="card-img-top" style="height:300px;object-fit:cover" alt="Project 9">
+          <div class="card-body">
+            <h4>Quiz</h4>
+            <p>A web-based quiz app built with HTML, CSS, and JavaScript. It presents multiple-choice questions with a timer, tracks the score, and displays results with an option to restart the quiz.</p>
+            <a href="https://quiz-tyob.netlify.app/" class="btn btn-warning">View Project</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="contact" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4" data-aos="fade-up">Contact Me</h2>
+    <div class="row text-center" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-md-4 mb-3">
+        <i class="bi bi-telephone-fill contact-icon"></i>
+        <p class="mt-2">+251 993237944</p>
+      </div>
+      <div class="col-md-4 mb-3">
+        <i class="bi bi-envelope-fill contact-icon"></i>
+        <p class="mt-2">   <a href="mailto:tyobstawodaj12@example.com" class="text-dark text-decoration-none" target="_blank">tyobstawodaj12@example.com</a> </p>
+      </div>
+      <div class="col-md-4 mb-3">
+        <i class="bi bi-linkedin contact-icon"></i>
+        <p class="mt-2"><a href="https://www.linkedin.com/in/tyobstawodaj" class="text-dark text-decoration-none" target="_blank">www.linkedin.com/in/tyobstawodaj</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-white text-center py-4">
+  <p>© 2025 Tyobsta Wodaj | Software Engineering Student & Web Developer</p>
+  <div class="mt-2">
+    <a href="https://github.com/tyobsta-wodaj" target="_blank" class="text-white p-3">
+      <i class="bi bi-github"></i>
+    </a>
+    <a href="https://t.me/tyob12" target="_blank" class="text-white p-3">
+      <i class="bi bi-telegram"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/tyobstawodaj" target="_blank" class="text-white p-3">
+      <i class="bi bi-linkedin"></i>
+    </a>
+    <a href="mailto:tyobstawodaj12@example.com" class="text-white p-3" target="_blank">
+      <i class="bi bi-envelope-fill"></i>
+    </a>
+  </div>
+</footer>
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="script.js"></script>
+</body>
+</html>
